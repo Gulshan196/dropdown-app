@@ -7,10 +7,6 @@ const subjects = [
   const science = ['maths','physics','chemistry'];
  const commerce = ['accounts','bussiness','maths'];
 const arts = ['humanities','english','political science'];
-
-// const science_num = [10,30,50];
-// const arts_num = [90,40,20];
-// const commerce_num = [90,80,50];
 const DropMenu = () => {
     const [sub,setSub] = useState(null);
     const [show ,setShow] = useState(false);
